@@ -6,7 +6,7 @@ export const howItWorksData = [
     list: [
       "Roohan drives our company with visionary leadership and industry expertise. Under his guidance, we innovate and excel, delivering exceptional results for our clients. Roohan ensures our company remains at the forefront, exceeding expectations and driving success.",
     ],
-    imageSrc: "/icons/ceo.jpeg",
+    imageSrc: "/icons/ceo-1.jpeg",
     designations: "",
   },
   {
@@ -27,7 +27,7 @@ export const howItWorksData = [
     list: [
       "Omer leads engineering efforts, excels in search arbitrage, and optimizes SEO strategies. Their multifaceted expertise drives innovation and impactful results for our digital presence.",
     ],
-    imageSrc: "/icons/cto.jpg",
+    imageSrc: "/icons/cto-1.jpg",
     designations: "Engineering Lead | Search Arbitrage Expert | SEO",
   },
   {
