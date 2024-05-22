@@ -10,7 +10,7 @@ export const PlatformStyle = styled.section`
   ); */
 
   .platform-color-container {
-    background: url("/images/platform/platform-background.png") no-repeat;
+    background: url("/icons/platform-background.jpeg") no-repeat;
     background-size: 100% 100%;
     padding: 9.5rem 0;
     position: relative;

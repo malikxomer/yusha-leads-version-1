@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { ContentContainer } from "../../styles/Common.style";
 
 export const ContactFormStyle = styled.section`
-  background: url("/images/contact-form-bg.png") no-repeat;
+  background: url("/icons/contact-form-bg.jpeg") no-repeat;
   background-size: 100% 100%;
   position: relative;
 
