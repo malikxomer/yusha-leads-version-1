@@ -210,7 +210,7 @@ export const ServiceExecutionIcon = () => (
 
 export const ListMarker = () => (
   <svg viewBox="0 0 17 17">
-    <circle cx="8.5" cy="8.5" r="8.5" style={{ fill: "#049FD7" }} />
+    <circle cx="8.5" cy="8.5" r="8.5" style={{ fill: "#004006" }} />
     <circle cx="8.5" cy="8.5" r="2.5" style={{ fill: "#F8F9FB" }} />
   </svg>
 );
