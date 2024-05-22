@@ -48,7 +48,7 @@ const NavLinks = (props) => {
           url="#how-it-works"
           title={
             <>
-              How It Works
+              Our Team
               {/* <QuestionMark /> */}
             </>
           }

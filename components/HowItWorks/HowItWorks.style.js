@@ -7,12 +7,12 @@ export const CustomImageSectionStyle = styled.section`
 
   .inner-card-wrapper {
     display: grid;
-    grid-template-columns: 1.7fr 1fr;
-    column-gap: 7.5rem;
+    grid-template-columns: 0.4fr 1fr;
+    column-gap: 15rem;
     align-items: center;
     grid-template-areas: "picture content";
     padding-bottom: 12rem;
-    padding-top: 4.2rem;
+    padding-top: 9rem;
 
     position: relative;
 
@@ -39,7 +39,7 @@ export const CustomImageSectionStyle = styled.section`
     }
 
     &.reverse {
-      grid-template-columns: 1fr 1.6fr;
+      grid-template-columns: 1fr 0.4fr;
       grid-template-areas: "content picture";
 
       @media (max-width: 950px) {
@@ -61,6 +61,9 @@ export const CustomImageSectionStyle = styled.section`
       grid-area: content;
 
       .card-content-heading {
+      }
+
+      .designations {
         margin-bottom: 4rem;
       }
     }

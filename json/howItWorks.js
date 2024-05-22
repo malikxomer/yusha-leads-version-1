@@ -2,35 +2,53 @@ export const howItWorksData = [
   {
     id: 1,
     title: "Curate",
-    heading: "Curate services and experiences",
+    heading: "Roohan Afzal - CEO",
     list: [
-      "Use readily available service templates for quick community roll-outs",
-      "Create a custom service as needed and choose how each step in the service will be executed and by which team member or partner",
-      "Control how services will be monetized based on your tenant experience management needs and goals",
+      "Roohan drives our company with visionary leadership and industry expertise. Under his guidance, we innovate and excel, delivering exceptional results for our clients. Roohan ensures our company remains at the forefront, exceeding expectations and driving success.",
     ],
-    imageSrc: "/images/how-it-works/curate-services.png",
+    imageSrc: "/icons/ceo.jpeg",
+    designations: "",
   },
   {
     id: 2,
     title: "On-board",
     direction: "reverse",
-    heading: "Roll-out curated services to your tenants",
+    heading: "Muhammad Zeeshan - COO",
     list: [
-      "Publish the curated catalog of services to your tenants via no-code mobile apps",
-      "Allow your tenants to interact with the catalog of services using AI enabled digital voice assistances (e.g., Alexa)",
-      "Enable your team and partners to execute services based upon the steps as you define while providing proof of completion for each service to your tenants",
+      "Zeeshan optimizes operations and fosters collaboration for exceptional client outcomes. With strategic expertise, they drive efficiency and propel our company's growth in the dynamic advertising landscape.",
     ],
-    imageSrc: "/images/how-it-works/roll-out.png",
+    imageSrc: "/icons/coo.jpg",
+    designations: "",
   },
   {
     id: 3,
     title: "Learn",
-    heading: "Learn about your tenants needs",
+    heading: "Muhammad Omer Javed - CTO ",
     list: [
-      "Gain insights into your tenants’ needs based on service ratings and feedback submitted post-completion",
-      "Optimize your service offerings based on the data collected during the service execution",
-      "Utilize analytics to improve service execution and performance of your team and partners",
+      "Omer leads engineering efforts, excels in search arbitrage, and optimizes SEO strategies. Their multifaceted expertise drives innovation and impactful results for our digital presence.",
     ],
-    imageSrc: "/images/how-it-works/learn.png",
+    imageSrc: "/icons/cto.jpg",
+    designations: "Engineering Lead | Search Arbitrage Expert | SEO",
+  },
+  {
+    id: 3,
+    title: "Learn",
+    direction: "reverse",
+    heading: "Usman Ahmed - Media Buyer",
+    list: [
+      "Usman is the core member of our Media team, Usman strategically places ads for optimal reach and ROI. Their data-driven approach and negotiation skills ensure campaign success in a complex media landscape."
+    ],
+    imageSrc: "/icons/mb.jpeg",
+    designations: "",
+  },
+  {
+    id: 3,
+    title: "Learn",
+    heading: "Nadir Qaiser - Managing Director",
+    list: [
+      "Nadir drives strategic vision, fostering innovation, and operational excellence. They empower our team to deliver exceptional results for clients, navigating challenges to propel our company forward."
+    ],
+    imageSrc: "/icons/md.jpg",
+    designations: "",
   },
 ];

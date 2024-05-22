@@ -1,5 +1,5 @@
-"use client"
-import {useState} from "react"
+"use client";
+import { useState } from "react";
 import { Select, Form } from "antd";
 import { Field as FormikField, Formik } from "formik";
 import * as Yup from "yup";
@@ -14,7 +14,8 @@ import ContactFormStyle from "./ContactForm.style";
 const FormItem = Form.Item;
 const Option = Select.Option;
 
-const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+const phoneRegExp =
+  /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 const alphabetsOnly = /^[a-zA-Z ]+$/;
 
 const QuestionMark = () => <span style={{ fontFamily: "sans-serif" }}>?</span>;
@@ -54,24 +55,9 @@ const ContactForm = () => {
       initialValues={formInitialValues}
       validationSchema={SignupSchema}
       onSubmit={(values, { resetForm }) => {
-        emailjs
-          .send(
-            "service_6vnvxpy",
-            "template_zw5ogcc",
-            values,
-            "user_vo4NArAW824nC0CmjZldW"
-          )
-          .then(
-            (result) => {
-              setSuccess(result.text);
-              setTimeout(() => {
-                setSuccess("");
-              }, 5000);
-            },
-            (error) => {
-              // console.log(error.text);
-            }
-          );
+        setTimeout(() => {
+          setSuccess(true);
+        }, 2000);
         resetForm();
       }}
     >
@@ -191,7 +177,7 @@ const ContactForm = () => {
 
           <CustomButton as="button" title="Submit" button="primary" />
 
-          {success === "OK" && (
+          {success && (
             <p className="form-message">
               Thank You for you message. Someone will get back to you shortly.
             </p>

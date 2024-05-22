@@ -7,8 +7,8 @@ export const headerData = [
       "Cultivate meaningful connections and expand your market presence with our tailored strategies. We specialize in helping you reach and engage with your target customers, ensuring your message resonates and drives results.",
     buttonText: "Get Started",
     buttonId: "#contact-form",
-    background: "/images/inhabify-header-1.png",
-    backgroundMobile: "/images/header-small-1.png",
+    background: "/images/inhabify-header-2.png",
+    backgroundMobile: "/images/header-small-2.jpg",
   },
 
   // {
