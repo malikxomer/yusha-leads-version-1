@@ -52,6 +52,7 @@ export const CustomImageSectionStyle = styled.section`
 
     @media (max-width: 950px) {
       grid-template-columns: 1fr;
+      row-gap: 3rem;
       grid-template-areas:
         "picture"
         "content";
