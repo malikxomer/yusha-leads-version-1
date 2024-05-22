@@ -1,0 +1,65 @@
+const theme = {
+    colors: {
+      primary: "#04360b",
+      secondary: "#0070f3",
+      lightGray: "#333333",
+      grey: "#8d919c",
+      blue: "#2b8d3c",
+      white: "#fff",
+      dullWhite: "#ffffff",
+      black: "#000",
+      active: "#0ea3d9",
+      label: "#0f253e",
+      lighter: "#bdbdbd",
+      silver: "#777777",
+    },
+    backgrounds: {
+      primary: "#004006",
+      secondary: "#f7f9fc",
+      info: "#f1f1f1",
+      blue: "#004006",
+      white: "#fff",
+      black: "#000",
+      navy: "#001d03",
+      success: "#00800033",
+    },
+    fontSize: {
+      h1: "5rem",
+      h2: "4.8rem",
+      h3: "3.2rem",
+      intermediate: "2.8rem",
+      h4: "2.1rem",
+      h5: "1.8rem",
+      h6: "1.3rem",
+      large: "2.4rem",
+      medium: "1.6rem",
+      small: "1.3rem",
+    },
+    fontWeight: {
+      normal: "400",
+      medium: "500",
+      bold: "600",
+      bolder: "700",
+    },
+    shadow: {
+      primary: "rgba(0, 0, 0, 0.5)",
+      secondary: "rgba(0,0,0,0.4)",
+      info: "rgba(0, 0, 0, 0.1)",
+    },
+    border: {
+      main: "rgba(4, 27, 54, 0.1)",
+      primary: "#049fd7",
+      dark: "#004006",
+      secondary: "#e8eaf0",
+      info: "#0f253e",
+      grey: "#e0e0e0",
+      highlight: "#004006",
+    },
+    opacity: {
+      medium: "0.5",
+      normal: "1",
+    },
+  };
+  
+  export default theme;
+  

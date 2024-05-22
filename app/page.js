@@ -1,9 +1,28 @@
+"use client";
+import {
+  Navbar,
+  Header,
+  Platform,
+  HowItWorks,
+  Pricing,
+  Testimonial,
+  GetDemo,
+  Footer,
+} from "../components";
+
 export default function Home() {
   return (
-    <main>
-      <div>
-        <p>HOME</p>
-      </div>
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Header />
+        <Platform />
+        <HowItWorks />
+        <Pricing />
+        <Testimonial />
+        <GetDemo />
+      </main>
+      <Footer />
+    </>
   );
 }
