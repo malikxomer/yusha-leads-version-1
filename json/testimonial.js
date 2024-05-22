@@ -3,35 +3,21 @@ export const testimonialsData = [
     id: 1,
     logo: "/images/testimonials/related-logo.png",
     comments:
-      "As a property manager, the key to my buildin’s success is streamlined communication between residents, management, concierge, and maintenance.",
-    author: "Owner, Major Real-Estate Portfolio Owner",
+      "Yusha Leads has exceeded our expectations with their deep understanding of digital marketing and hands-on approach. We’ve seen a dramatic increase in web traffic and conversions. Their transparency and dedication make them an invaluable partner for enhancing digital presence.",
+    author: "Sarah Johnson, Founder of Bright Ideas Co.",
   },
-  // {
-  //   id: 2,
-  //   logo: "/images/testimonials/lincoln-logo.png",
-  //   comments:
-  //     "As a property Ibrahim Khan, the key to my buildin’s Ibrahim Khan is streamlined communication between Ibrahim Khan, management, concierge, and maintenance.",
-  //   author: "Ibrahim Khan, Principal a Lincoln Property Management Group",
-  // },
-  // {
-  //   id: 3,
-  //   logo: "/images/testimonials/bozzuto-logo.png",
-  //   comments:
-  //     "As a property Asad Ullah, the key to my buildin’s Asad Ullah is streamlined communication between Asad Ullah, management, concierge, and maintenance.",
-  //   author: "Asad Ullah, Principal a Lincoln Property Management Group",
-  // },
-  // {
-  //   id: 4,
-  //   logo: "/images/testimonials/fifield-logo.png",
-  //   comments:
-  //     "As a property Kainat, the key to my buildin’s Kainat is streamlined communication between Kainat, management, concierge, and maintenance.",
-  //   author: "Kainat, Principal a Lincoln Property Management Group",
-  // },
-  // {
-  //   id: 5,
-  //   logo: "/images/testimonials/golub-logo.png",
-  //   comments:
-  //     "As a property Jahangir, the key to my buildin’s Jahangir is streamlined communication between Jahangir, management, concierge, and maintenance.",
-  //   author: "Jahangir, Principal a Lincoln Property Management Group",
-  // },
+  {
+    id: 2,
+    logo: "/images/testimonials/lincoln-logo.png",
+    comments:
+      "Our experience with Yusha Leads has been outstanding. They crafted a digital ad strategy that delivered impressive results, leading to a significant boost in online sales. We couldn’t be happier with the outcomes and look forward to continued success together.",
+    author: "Michael Brown, COO of Elite Services Inc.",
+  },
+  {
+    id: 3,
+    logo: "/images/testimonials/bozzuto-logo.png",
+    comments:
+      "Choosing Yusha Leads for our digital advertising needs was one of the best decisions we’ve made. Their innovative approach and expertise have resulted in a noticeable uptick in online engagement and revenue. We’ve achieved remarkable growth thanks to their efforts!",
+    author: "Lisa Davis, Head of Marketing at NextGen Solutions",
+  },
 ];

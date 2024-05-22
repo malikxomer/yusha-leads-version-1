@@ -66,14 +66,38 @@ export const TestimonialStyle = styled.section`
     }
 
     .ant-tabs-content-holder {
-      background: url("/images/testimonials/testimonials-background.png")
-        no-repeat;
+      background: url("/icons/testimonials-background.png") no-repeat;
       background-size: 100% 100%;
       image-rendering: pixelated;
+      height: 46rem;
+
+      @media (max-width: 950px) {
+        height: 55rem;
+      }
+
+      @media (max-width: 600px) {
+        height: 40rem;
+      }
+
+      @media (max-width: 450px) {
+        height: 48rem;
+      }
+
+      @media (max-width: 380px) {
+        height: 56rem;
+      }
 
       .ant-tabs-content {
         .ant-tabs-tabpane {
           padding: 5rem 10rem;
+
+          &.ant-tabs-tabpane-hidden {
+            display: none;
+          }
+
+          &.ant-tabs-tabpane-active {
+            display: block;
+          }
 
           @media (max-width: 767px) {
             padding: 4rem;
@@ -93,7 +117,7 @@ export const TestimonialStyle = styled.section`
 
             .testimonial-description {
               font-weight: ${({ theme }) => theme.fontWeight.bold};
-              color: ${({ theme }) => theme.colors.white};
+              color: ${({ theme }) => theme.colors.primary};
               text-align: center;
               margin-top: 3rem;
               /* max-width: 100rem;
@@ -106,7 +130,7 @@ export const TestimonialStyle = styled.section`
 
             .testimonial-author {
               font-weight: ${({ theme }) => theme.fontWeight.bold};
-              color: ${({ theme }) => theme.colors.white};
+              color: ${({ theme }) => theme.colors.primary};
               text-align: center;
               margin-top: 3rem;
             }
