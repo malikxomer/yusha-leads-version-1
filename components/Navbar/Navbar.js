@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import { useState } from "react";
 import classNames from "classnames";
@@ -113,7 +114,7 @@ const Navbar = () => {
 
             <CustomButton
               url="#contact-form"
-              title="Get a Demo"
+              title="Get a Quote"
               button="dark"
               eventClick={() => setToggleNav(false)}
             />

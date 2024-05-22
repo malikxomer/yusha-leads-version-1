@@ -27,9 +27,10 @@ export const FooterStyle = styled.footer`
       display: flex;
       flex-direction: column;
       align-items: flex-start;
+      width: 16rem;
 
       > img {
-        margin-bottom: 1.5rem;
+        width: 100%
       }
 
       /* .links-section {

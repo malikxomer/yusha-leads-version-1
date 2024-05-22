@@ -14,8 +14,8 @@ export const footerData = [
     customClass: "contact",
     description: [
       <p className="content">Media Inquires</p>,
-      <a className="content" href="mailto:hello@inhabify.com">
-        hello@inhabify.com
+      <a className="content" href="mailto:support@yushaleads.com">
+        support@yushaleads.com
       </a>,
     ],
   },
@@ -26,7 +26,7 @@ export const footerData = [
     description: [
       <a
         className="content"
-        href="/terms-and-conditions.html"
+        href="/terms-and-conditions"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -34,32 +34,32 @@ export const footerData = [
       </a>,
       <a
         className="content"
-        href="/privacy.html"
+        href="/privacy"
         target="_blank"
         rel="noopener noreferrer"
       >
         Privacy Policy
       </a>,
-      <a className="content" href="#">
-        Careers
-      </a>,
+      // <a className="content" href="#">
+      //   Careers
+      // </a>,
     ],
   },
 
-  {
-    id: 3,
-    heading: "Follow Us",
-    iconsList: [
-      { icon: <LinkedInIcon />, link: "https://www.linkedin.com/" },
-      { icon: <TwitterIcon />, link: "https://www.linkedin.com/" },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   heading: "Follow Us",
+  //   iconsList: [
+  //     { icon: <LinkedInIcon />, link: "https://www.linkedin.com/" },
+  //     { icon: <TwitterIcon />, link: "https://www.linkedin.com/" },
+  //   ],
+  // },
 ];
 
-export const followUsData = [
-  {
-    link: "https://apps.apple.com/us/app/inhabify/id1494270276",
-    icon: <AppleStoreIcon />,
-  },
-  { link: "#", icon: <PlayStoreIcon /> },
-];
+// export const followUsData = [
+//   {
+//     link: "https://apps.apple.com/us/app/inhabify/id1494270276",
+//     icon: <AppleStoreIcon />,
+//   },
+//   { link: "#", icon: <PlayStoreIcon /> },
+// ];

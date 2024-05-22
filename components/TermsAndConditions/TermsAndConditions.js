@@ -14,7 +14,7 @@ const TermsAndConditions = () => (
               <h4>{paragraphData.heading}</h4>
               <article className="paragraphs-text">
                 {paragraphData.paragraph.map((paragraphContent, index) => (
-                  <p key={`paragraph-no-${index}`}>{paragraphContent}</p>
+                  <div key={`paragraph-no-${index}`}>{paragraphContent}</div>
                 ))}
               </article>
             </section>

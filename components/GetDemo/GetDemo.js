@@ -1,3 +1,4 @@
+"use client"
 import { ContactFormStyle } from "./GetDemo.style";
 import { demoData } from "../../json/demo";
 import { CustomList, ContactForm } from "../../components";

@@ -7,9 +7,9 @@ const Footer = () => (
   <FooterStyle>
     <section className="footer-content-wrapper">
       <figure className="logo-section">
-        <img src="/images/footer-logo.svg" className="logo" />
+        <img src="/icons/footer-logo.png" className="logo" />
 
-        <section className="logo-wrapper">
+        {/* <section className="logo-wrapper">
           {followUsData.map((data, index) => (
             <a
               key={index}
@@ -21,7 +21,7 @@ const Footer = () => (
               {data.icon}
             </a>
           ))}
-        </section>
+        </section> */}
       </figure>
 
       {footerData.map((footerItem) => (
