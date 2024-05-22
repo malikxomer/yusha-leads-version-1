@@ -25,12 +25,12 @@ const Pricing = () => (
               <h3 className="card-heading">{heading}</h3>
               <h4 className="card-caption">{caption}</h4>
               <h5 className="card-description">{description}</h5>
-              <CustomButton
+              {/* <CustomButton
                 as="button"
                 title={buttonText}
                 button="primary"
-                // eventClick={() => console.log("omer")}
-              />
+                eventClick={() => console.log("omer")}
+              /> */}
             </article>
           );
         })}
